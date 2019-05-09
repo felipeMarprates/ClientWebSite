@@ -3,3 +3,61 @@ margin: 0;
 padding: 0;
 border: 0;
 }
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+li{
+ text-align: left;
+}
+li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover{
+  background-color: bruh;
+}
+body{
+  background-color: black;
+  backround-image: url("");
+}
+/*------------COLORS--------------*/
+.red{
+  color: #A71B28;
+}
+.darkred{
+  color: #8C182D;
+}
+.black{
+  color: #111226;
+}
+.blue{
+  color: #D5DAF2;
+}
+.darkblue{
+  color: ##272F59;
+}
+.backred{
+  background-color: #A71B28;
+}
+.backdarkred{
+  background-color: #8C182D;
+}
+.backblack{
+
+  background-color: #111226;
+}
+.backblue{
+  background-color: #D5DAF2;
+}
+.backdarkblue{
+  background-color: ##272F59;
+}
+/*------------COLORS--------------*/
