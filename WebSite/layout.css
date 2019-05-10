@@ -1,9 +1,13 @@
+/*------------TAGS--------------*/
 body{
+
 margin: 0;
 padding: 0;
 border: 0;
+
 }
 
+/*------------NAV--------------*/
 ul{
   list-style-type: none;
   margin: 0;
@@ -24,11 +28,14 @@ li a{
 li a:hover{
   background-color: bruh;
 }
-body{
-  background-color: black;
-  backround-image: url("");
-}
+
+
+
 /*------------COLORS--------------*/
+
+
+
+
 .red{
   color: #A71B28;
 }
@@ -60,4 +67,43 @@ body{
 .backdarkblue{
   background-color: ##272F59;
 }
-/*------------COLORS--------------*/
+
+
+
+
+
+
+/*-----------Flex-Box-----------*/
+
+
+
+.first-parent{
+    flex-flow: column;
+    display: flex;
+    align-content:flex-end;
+    align-items:flex-start;
+    justify-content: flex-start;
+}
+
+
+
+
+
+/*------------WIDHTS-------------*/
+
+
+
+.half{
+  width: 50%;
+}
+.third{
+  width: 33%;
+}
+.fourth{
+  width: 25%;
+}
+.tenth{
+  width: 10%;
+}
+
+/*-------------------------------*/
