@@ -12,12 +12,9 @@ ul{
   list-style-type: none;
   margin: 0;
   padding: 0;
-  overflow: hidden;
-  background-color: #333;
+
 }
-li{
- text-align: left;
-}
+
 li a{
   display: block;
   color: white;
@@ -25,10 +22,38 @@ li a{
   padding: 14px 16px;
   text-decoration: none;
 }
-li a:hover{
-  background-color: bruh;
+
+li{
+  margin: 0;
+}
+a {
+  position: relative;
 }
 
+a::before, a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background-color: #f11f35;
+  transform-origin: center right;
+  transform: scaleX(0);
+  transition: transform 0.5s ease;
+}
+
+a::before {
+  top: 0;
+}
+
+a::after {
+  bottom: 0;
+}
+
+a:hover::before, a:hover::after {
+  transform-origin: center left;
+  transform: scaleX(1);
+}
 
 
 /*------------COLORS--------------*/
@@ -47,7 +72,7 @@ li a:hover{
   color: #D5DAF2;
 }
 .darkblue{
-  color: ##272F59;
+  color: #272F59;
 }
 .backred{
   background-color: #A71B28;
@@ -60,10 +85,16 @@ li a:hover{
   background-color: #111226;
 }
 .backblue{
-  background-color: #D5DAF2;
+  background-color: #000080;
 }
 .backdarkblue{
-  background-color: ##272F59;
+  background-color: #272F59;
+}
+.backblack{
+  background-color: #000000
+}
+.backlightgrey{
+  background-color: 	#D3D3D3;
 }
 
 
@@ -76,14 +107,25 @@ li a:hover{
 
 
 .first-parent{
-    flex-flow: column;
     display: flex;
-    align-content:flex-end;
-    align-items:flex-start;
-    justify-content: flex-start;
+    flex-direction:row;
+    flex-wrap: nowrap;
+    align-content:flex-start;
+    align-items:center;
+    justify-content: flex-end;
+    width: 100%;
 }
 
-
+.second-parent{
+    display: flex;
+    flex-direction:column-reverse;
+    flex-wrap: nowrap;
+    align-content:flex-start;
+    align-items:flex-start;
+    justify-content: flex-end;
+    width: 100%;
+    height: 20px;
+}
 
 
 
@@ -99,7 +141,7 @@ li a:hover{
 .third{
   width: 33%;
 }
-.fourth{
+.quarter{
   width: 25%;
 }
 .tenth{
@@ -115,7 +157,7 @@ li a:hover{
   padding-bottom: 10%;
 }
 .padding-top-10{
-  padding-top: 10%;
+  padding-top: 5%;
 }
 .padding-right-10{
   padding-right: 10%;
