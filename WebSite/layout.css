@@ -17,7 +17,7 @@ ul{
 
 li a{
   display: block;
-  color: white;
+  color: #222688;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -28,6 +28,9 @@ li{
 }
 a {
   position: relative;
+  font-family: adobe-garamond-pro, serif;
+  font-weight: 700;
+  font-style: italic;
 }
 
 a::before, a::after {
