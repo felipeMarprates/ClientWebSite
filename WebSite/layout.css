@@ -31,6 +31,7 @@ a {
   font-family: adobe-garamond-pro, serif;
   font-weight: 700;
   font-style: italic;
+  font-size: 1.2vw;
 }
 
 a::before, a::after {

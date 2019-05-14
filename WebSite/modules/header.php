@@ -2,6 +2,9 @@
 <html lang="en" dir="ltr">
   <head>
     <link rel="stylesheet" href="layout.css">
+    <link rel="stylesheet" href="https://use.typekit.net/imo7ykw.css">
+
+
 
 
     <meta charset="utf-8">
@@ -16,7 +19,7 @@
   <nav class="half">
   <ul class="first-parent">
      <li class="quarter"><a  href="?page=home"> Home</a></li>
-     <li class="quarter"><a  href="?page=assingments"> assingments</a></li>
+     <li class="quarter"><a  href="?page=assingments"> Assingments</a></li>
      <li class="quarter"><a  href="?page=lectures"> Lectures</a></li>
      <li class="quarter"><a  href="?page=about_me"> About me</a></li>
   </ul>
