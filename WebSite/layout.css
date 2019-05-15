@@ -1,3 +1,4 @@
+
 /*------------TAGS--------------*/
 body{
 
@@ -28,10 +29,10 @@ li{
 }
 a {
   position: relative;
-  font-family: adobe-garamond-pro, serif;
+  font-family: adobe-garamond-pro, serif;         //
   font-weight: 700;
-  font-style: italic;
-  font-size: 1.2vw;
+  font-style: normal;
+  font-size: 1.5vw;
 }
 
 a::before, a::after {
@@ -168,4 +169,9 @@ a:hover::before, a:hover::after {
 }
 .padding-10{
   padding: 10%;
+}
+
+/*-----------------------------------------------*/
+.back-img-americanFlagBlur{
+background: url("img/american-flag-blur.png");
 }
