@@ -8,6 +8,16 @@ border: 0;
 
 }
 
+p{
+  font-size: 1.4vw;
+  font-family: adobe-garamond-pro, serif;
+  font-weight: 300;
+  font-style: normal ;
+}
+div{
+  padding: 0;
+}
+
 /*------------NAV--------------*/
 ul{
   list-style-type: none;
@@ -154,7 +164,9 @@ a:hover::before, a:hover::after {
 }
 
 /*-----------Padding--------------------*/
-
+.padding-top-5{
+  padding-top: 7.5%;
+}
 .padding-Left-10{
   padding-left: 10%;
 }
@@ -167,11 +179,46 @@ a:hover::before, a:hover::after {
 .padding-right-10{
   padding-right: 10%;
 }
+.padding-right-25{
+  padding-right: 25%;
+}
+.padding-left-25{
+  padding-left: 25%;
+}
 .padding-10{
   padding: 10%;
 }
+.padding-20{
+  padding: 20%;
+}
+.padding-25{
+  padding: 25%;
+}
 
-/*-----------------------------------------------*/
+/*----------------background-images-------------------------------*/
 .back-img-americanFlagBlur{
-background: url("img/american-flag-blur.png");
+background: url("img/eagle-footer.png");
+max-height: 2vw;
+}
+/*-----------FixedPannels------------------------------------*/
+.side-left , .side-right1, .side-right2{
+  position: sticky;
+  position: -webkit-sticky;
+  width: 23%;
+  border-radius:  1.1vw;
+  background-color: #D3D3D3;
+  padding: 0.3vw;
+  color: #272F59;
+}
+.side-left , .side-right1{
+    top: 10%;
+}
+.side-right2{
+  top: 45%;
+}
+.side-left{
+  left: 1%;
+}
+.side-right1 , .side-right2{
+  left: 99%;
 }

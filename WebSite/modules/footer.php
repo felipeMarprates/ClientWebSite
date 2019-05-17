@@ -1,6 +1,6 @@
 <footer>
-<div class="second-parent   padding-10">
-<div class="backlightgrey back-img-americanFlagBlur">
+<div class="second-parent  back-img-americanFlagBlur padding-top-5" style="max-height:240px;">
+<div class="backlightgrey ">
 
 </div>
 </div>

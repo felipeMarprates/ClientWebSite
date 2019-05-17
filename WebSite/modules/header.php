@@ -6,7 +6,6 @@
 
 
 
-
     <meta charset="utf-8">
     <title></title>
   </head>
@@ -15,7 +14,7 @@
   <div class="second-parent backdarkred" >
 
   <div class="first-parent backlightgrey full ">
-<img src="img/alex-ivanov.png" alt="alex ivanov ap government logo" style="max-height:400px;">
+<img src="img/alex-ivanov.png" alt="alex ivanov ap government logo" style="max-height:4.5vw;">
   <nav class="half">
   <ul class="first-parent">
      <li class="quarter"><a  href="?page=home"> Home</a></li>
